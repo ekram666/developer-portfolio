@@ -9,9 +9,10 @@ h1{
     padding-left: 5px;
 }
 .img-slice{
-    border-left: 5px solid;
+    border-left: 5px solid ;
     border-image: linear-gradient(rgb(243, 165, 21),rgb(245, 164, 13));
     border-image-slice: 5 10 10 2;
+    
     
     
 }  
@@ -74,8 +75,20 @@ h2{
     
 }
 .fourth-section{
-    background-image: url(images/shapes/shape-1.png);
+    background-image: url(images/shapes/shape-6.png);
     background-repeat: no-repeat;
     background-position: right ;
     background-size: 20%;
+}
+.final-portion{
+   background-color: rgb(233, 230, 209);
+}
+.footer{
+  
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:black;
+   color: white;
+   text-align: center;
 }
