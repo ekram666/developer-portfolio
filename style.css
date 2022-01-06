@@ -16,16 +16,17 @@ h1{
     
 }  
 h2{
-    font-size: 40px;
-    
+    font-size: 30px;
+    margin: 0%;
+    padding :0%;
    
 }
 .this-heading-color{
     color: coral;
 }
-.banner-top{
+.flexible-container{
     display: flex;
-    margin-bottom: 100%;
+   
 
 }
 .half-width{
@@ -47,12 +48,34 @@ h2{
 .second-portion-heading{
     text-align: center;
 }
-.first-shadowbox{
-    width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
+.shadowbox{
+    width: 30%;
+    margin-left: 2%;
+    margin-right: 2%;
     padding-left: 20px;
     border-radius: 10px;
-    box-shadow: 10px 10px 40px gray;
-    background-color: rgb(144, 241, 241);
+    box-shadow: 10px 20px 40px gray;
+    
+}
+#mission{
+    background-color: rgb(194, 241, 241);
+}
+#vision{
+    background-color: rgb(238, 215, 207);
+}
+#goal{
+    background-color: rgb(189, 233, 189); 
+}
+.third-section{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left ;
+    background-size: 20%;
+    
+}
+.fourth-section{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right ;
+    background-size: 20%;
 }
